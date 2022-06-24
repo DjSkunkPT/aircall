@@ -4,7 +4,7 @@
   "description": "Leap test",
   "main": "index.js",
   "repository": "",
-  "author": "",
+  "author": "Bruno Silva",
   "license": "",
   "private": false,
   "scripts": {
@@ -12,10 +12,18 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "@babel/runtime": "^7.18.3",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.5",
+    "axios": "^0.27.2",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/plugin-transform-runtime": "^7.18.5",
     "babel-core": "6.26.*",
     "babel-loader": "7.1.*",
     "babel-preset-env": "1.7.0",
